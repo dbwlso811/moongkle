@@ -1,0 +1,173 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+ul, li {
+  list-style: none;
+}
+
+a, pre {
+  color: #333333;
+}
+
+body {
+  padding-top: 56px;
+  color: #333333;
+}
+
+body nav .container .navbar-brand {
+  color: #333333;
+}
+
+body nav .container .navbar-brand img {
+  background-size: contain;
+  width: 130px;
+}
+
+body nav .container .navbar-toggler {
+  border: none;
+}
+
+body nav .container .navbar-toggler:focus {
+  outline: 0 none;
+  border: 0 none;
+}
+
+body nav .container .navbar-toggler a {
+  color: #333333;
+}
+
+body nav .container .nav-item {
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+body nav .container .nav-item:hover {
+  color: #333333;
+}
+
+body nav .container .nav-item .dropdown-item {
+  font-size: 0.8em;
+}
+
+body .container .row {
+  padding-top: 10vh;
+}
+
+body .container .row .product-img {
+  height: 400px;
+  background-image: url(http://moongkle.kr/web/product/medium/202009/599ca472e8f23b59242004c6aa2aa6a1.jpg);
+  background-position: center;
+  background-size: contain;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+body .container .row .product-txt {
+  font-size: 0.8em;
+}
+
+body .container .row .product-txt ul li:nth-child(1) ul {
+  padding: 0;
+}
+
+body .container .row .product-txt ul li:nth-child(1) ul li {
+  margin-right: 30px;
+}
+
+body .container .row .product-txt ul li:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container .row .product-txt ul li:nth-child(4) {
+  padding: 0;
+  width: 100%;
+}
+
+body .container .row .product-txt ul li:nth-child(4) div {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #333333;
+  margin-bottom: 10px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .row .product-images {
+  margin-top: 10%;
+}
+
+body .container .row .product-images img {
+  background-position: center;
+  background-size: contain;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+body footer .container p {
+  color: #333333;
+  font-size: 0.8em;
+}
+
+body footer .container .footer-text {
+  padding: 0;
+}
+
+body footer .container .footer-text p {
+  font-size: 0.8em;
+}
+
+body footer .container .footer-text .footer-list {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body footer .container .footer-text .footer-list li {
+  text-transform: uppercase;
+  margin-right: 10px;
+  font-size: 0.8em;
+}
+
+body .carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+body .portfolio-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  body footer .container .footer-text {
+    margin: 0 auto;
+  }
+  body footer .container .footer-text li p {
+    text-align: center;
+  }
+  body footer .container .footer-text li {
+    margin: 0 auto;
+  }
+  body footer .container .footer-text .footer-list {
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=product.css.map */

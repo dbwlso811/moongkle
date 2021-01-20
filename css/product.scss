@@ -1,0 +1,130 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+ ul, li {list-style: none;}
+ a, pre {color: #333333;}
+  body {
+     padding-top: 56px;
+     color: #333333;
+     // nav
+     nav {
+         
+         // container
+         .container {
+           .navbar-brand {color: #333333;
+             img {background-size: contain; width: 130px;}
+           }
+           .navbar-toggler {
+             border: none;
+             &:focus {outline: 0 none; border: 0 none;}
+             a {color: #333333;}
+           }
+           .nav-item {
+             text-transform: uppercase;
+             font-size: 0.8em;
+             &:hover {color: #333333;}
+             .dropdown-item {font-size: 0.8em;}
+           }
+         }
+     }
+    //  product container
+     .container {
+         
+         .row {
+             padding-top: 10vh;
+             .product-img {
+                 height: 400px;
+                 background-image: url(http://moongkle.kr/web/product/medium/202009/599ca472e8f23b59242004c6aa2aa6a1.jpg);
+                 background-position: center;
+                 background-size: contain;
+                 margin: 0 auto;
+                 background-repeat: no-repeat;
+             }
+             .product-txt {
+                 font-size: 0.8em;
+                 ul {
+                    li {
+                        &:nth-child(1) {
+                            ul {
+                                padding: 0;
+                                li {margin-right: 30px;}
+                            }
+                        }
+                        &:nth-child(2) {display: flex; justify-content: space-between;}
+                        &:nth-child(3) {}
+                        &:nth-child(4) {
+                            padding: 0;
+                            width: 100%;
+                            div {width: 100%; height: 40px; border: 1px solid #333333; margin-bottom: 10px; text-align: center; display: flex; justify-content: center; align-items: center;}
+                        }
+                    }
+                 }
+             }
+             .product-images {
+                 margin-top: 10%;
+                //  margin: 0 auto;
+                //  background-image: url(../images/product.jpg);
+                // background-position: center;
+                // background-size: cover;
+                // margin: 0 auto;
+                // background-repeat: no-repeat;
+                 img {
+                    background-position: center;
+                    background-size: contain;
+                    margin: 0 auto;
+                    background-repeat: no-repeat;}
+            }
+         }
+     }
+
+     // footer
+     footer {
+       .container {
+         p {color: #333333; font-size: 0.8em;}
+         .footer-text {
+           padding: 0;
+           p {font-size: 0.8em;}
+           .footer-list {padding: 0; display: flex;
+             li {text-transform: uppercase; margin-right: 10px; font-size: 0.8em;}
+           }
+         }
+       }
+     }
+ 
+   
+   .carousel-item {
+     height: 65vh;
+     min-height: 300px;
+     background: no-repeat center center scroll;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+   }
+   
+   .portfolio-item {
+     margin-top: 30px;
+     margin-bottom: 30px;
+   }
+ }
+ 
+ @media (max-width: 768px) {
+   body {
+     footer {
+       .container {
+         .footer-text {
+           li {
+             p {text-align: center;}
+           }
+           margin: 0 auto;
+           li {margin: 0 auto;}
+           .footer-list { margin: 0 auto;}
+         }
+       }
+     }
+   }
+ }
+ 
+ // @media (min-width: 576px) {}

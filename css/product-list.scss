@@ -1,0 +1,94 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+ ul {list-style: none;}
+ a, pre {color: #333333;}
+  body {
+     padding-top: 56px;
+     color: #333333;
+     // nav
+     nav {
+         // width: 90vw;
+         
+         // container
+         .container {
+           .navbar-brand {color: #333333;
+             img {background-size: contain; width: 130px;}
+           }
+           .navbar-toggler {
+             border: none;
+             &:focus {outline: 0 none; border: 0 none;}
+             a {color: #333333;}
+           }
+           .nav-item {
+             text-transform: uppercase;
+             font-size: 0.8em;
+             &:hover {color: #333333;}
+             .dropdown-item {font-size: 0.8em;}
+           }
+         }
+     }
+     
+     // container
+     .container {
+       .row {
+         margin: 50px 0;
+         .card {
+           border: none; border-radius: 0rem;
+           .card-body {height: 20%; text-align: center;
+             .card-title { a{color: #333333;}}
+           }
+         }
+       }
+     }
+     // footer
+     footer {
+       .container {
+         p {color: #333333; font-size: 0.8em;}
+         .footer-text {
+           padding: 0;
+           p {font-size: 0.8em;}
+           .footer-list {padding: 0; display: flex;
+             li {text-transform: uppercase; margin-right: 10px; font-size: 0.8em;}
+           }
+         }
+       }
+     }
+ 
+   
+   .carousel-item {
+     height: 65vh;
+     min-height: 300px;
+     background: no-repeat center center scroll;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+   }
+   
+   .portfolio-item {
+     margin-top: 30px;
+     margin-bottom: 30px;
+   }
+ }
+ 
+ @media (max-width: 768px) {
+   body {
+     footer {
+       .container {
+         .footer-text {
+           li {
+             p {text-align: center;}
+           }
+           margin: 0 auto;
+           li {margin: 0 auto;}
+           .footer-list { margin: 0 auto;}
+         }
+       }
+     }
+   }
+ }
+ 
+ // @media (min-width: 576px) {}
