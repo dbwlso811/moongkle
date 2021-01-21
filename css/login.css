@@ -51,17 +51,41 @@ body nav .container .nav-item .dropdown-item {
   font-size: 0.8em;
 }
 
-body .container #login .container #login-row #login-column #login-box {
+body .container #login-box {
   margin-top: 120px;
   max-width: 600px;
   height: 320px;
 }
 
-body .container #login .container #login-row #login-column #login-box #login-form {
+body .container #login-box #login-form {
   padding: 20px;
+  font-size: 0.8em;
 }
 
-body .container #login .container #login-row #login-column #login-box #login-form #register-link {
+body .container #login-box #login-form #log {
+  color: #333333 !important;
+}
+
+body .container #login-box #login-form .text-info {
+  color: #BABABA !important;
+}
+
+body .container #login-box #login-form .form-group:last-child .btn-info {
+  width: 100%;
+  border: none;
+  border-radius: 0px;
+  background-color: #79ADD4;
+}
+
+body .container #login-box #login-form .form-group:last-child .btn-info:hover {
+  background-color: #3f7197;
+}
+
+body .container #login-box #login-form .form-group:last-child a {
+  float: right;
+}
+
+body .container #login-box #login-form #register-link {
   margin-top: -85px;
 }
 

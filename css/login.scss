@@ -33,17 +33,32 @@
      
      // container
      .container {
-        #login .container #login-row #login-column #login-box {
+        #login-box {
             margin-top: 120px;
             max-width: 600px;
             height: 320px;
+            #login-form {
+              padding: 20px;
+              font-size: 0.8em;
+              #log {color: #333333!important;}
+              .text-info {color: #BABABA!important;}
+              .form-group:last-child {
+                .btn-info {
+                  width: 100%;
+                  border: none;
+                  border-radius: 0px;
+                  background-color: #79ADD4;
+                  &:hover {background-color: #3f7197;}
+                }
+                a {float: right;}
+              }
+              // #log {color: #333333;}
+              #register-link {
+                margin-top: -85px;
+              }
+            }
           }
-          #login .container #login-row #login-column #login-box #login-form {
-            padding: 20px;
-          }
-          #login .container #login-row #login-column #login-box #login-form #register-link {
-            margin-top: -85px;
-          }
+          
      }
      // footer
      footer {

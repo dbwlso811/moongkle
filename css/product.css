@@ -68,6 +68,10 @@ body .container .row .product-txt {
   font-size: 0.8em;
 }
 
+body .container .row .product-txt ul {
+  padding: 0;
+}
+
 body .container .row .product-txt ul li:nth-child(1) ul {
   padding: 0;
 }
@@ -76,35 +80,30 @@ body .container .row .product-txt ul li:nth-child(1) ul li {
   margin-right: 30px;
 }
 
-body .container .row .product-txt ul li:nth-child(2) {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 body .container .row .product-txt ul li:nth-child(4) {
   padding: 0;
   width: 100%;
 }
 
 body .container .row .product-txt ul li:nth-child(4) div {
+  margin-bottom: 20px;
+}
+
+body .container .row .product-txt ul li:nth-child(4) div .btn-info {
   width: 100%;
-  height: 40px;
-  border: 1px solid #333333;
-  margin-bottom: 10px;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  border: none;
+  border-radius: 0px;
+  background-color: #79ADD4;
+  text-transform: uppercase;
+}
+
+body .container .row .product-txt ul li:nth-child(4) div .btn-info:hover {
+  background-color: #3f7197;
+}
+
+body .container .row .product-txt ul li:nth-child(4) div a {
+  color: #fff;
+  text-transform: uppercase;
 }
 
 body .container .row .product-images {
