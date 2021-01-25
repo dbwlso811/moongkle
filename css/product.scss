@@ -66,9 +66,10 @@
                                 width: 100%;
                                 border: none;
                                 border-radius: 0px;
-                                background-color: #79ADD4;
+                                height: calc(1.8em + .85rem + 2px);
+                                background-color: #bababa;
                                 text-transform: uppercase;
-                                &:hover {background-color: #3f7197;}
+                                &:hover {background-color: #333333;}
                               }
                               a {color: #fff; text-transform: uppercase;}
                             }

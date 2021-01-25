@@ -70,15 +70,20 @@ body .container #login-box #login-form .text-info {
   color: #BABABA !important;
 }
 
+body .container #login-box #login-form .form-control {
+  height: calc(1.8em + .85rem + 2px);
+}
+
 body .container #login-box #login-form .form-group:last-child .btn-info {
   width: 100%;
   border: none;
   border-radius: 0px;
-  background-color: #79ADD4;
+  height: calc(1.8em + .85rem + 2px);
+  background-color: #bababa;
 }
 
 body .container #login-box #login-form .form-group:last-child .btn-info:hover {
-  background-color: #3f7197;
+  background-color: #333333;
 }
 
 body .container #login-box #login-form .form-group:last-child a {

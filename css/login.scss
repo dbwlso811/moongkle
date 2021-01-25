@@ -42,13 +42,15 @@
               font-size: 0.8em;
               #log {color: #333333!important;}
               .text-info {color: #BABABA!important;}
+              .form-control {height: calc(1.8em + .85rem + 2px);}
               .form-group:last-child {
                 .btn-info {
                   width: 100%;
                   border: none;
                   border-radius: 0px;
-                  background-color: #79ADD4;
-                  &:hover {background-color: #3f7197;}
+                  height: calc(1.8em + .85rem + 2px);
+                  background-color: #bababa;
+                  &:hover {background-color: #333333;}
                 }
                 a {float: right;}
               }

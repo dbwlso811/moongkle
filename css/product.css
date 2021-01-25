@@ -93,12 +93,13 @@ body .container .row .product-txt ul li:nth-child(4) div .btn-info {
   width: 100%;
   border: none;
   border-radius: 0px;
-  background-color: #79ADD4;
+  height: calc(1.8em + .85rem + 2px);
+  background-color: #bababa;
   text-transform: uppercase;
 }
 
 body .container .row .product-txt ul li:nth-child(4) div .btn-info:hover {
-  background-color: #3f7197;
+  background-color: #333333;
 }
 
 body .container .row .product-txt ul li:nth-child(4) div a {
